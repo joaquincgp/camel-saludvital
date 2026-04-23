@@ -1,0 +1,4 @@
+patient_id,full_name,appointment_date,insurance_code,error_reason
+1001,Ana Perez,10/05/2026,IESS,appointment_date inválido: '10/05/2026' (esperado YYYY-MM-DD)
+1002,,2026-05-10,ABC,full_name vacío | insurance_code inválido: 'ABC' (válidos: IESS, PRIVADO, NINGUNO)
+1003,Luis Paredes,2026/05/11,PRIVADO,appointment_date inválido: '2026/05/11' (esperado YYYY-MM-DD)
